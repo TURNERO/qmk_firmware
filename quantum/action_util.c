@@ -300,9 +300,9 @@ void send_6kro_report(void) {
         memcpy(&last_report, keyboard_report, sizeof(report_keyboard_t));
         host_keyboard_send(keyboard_report);
     }
-#    ifdef APDAPTIVE_NKRO_ENABLE
+#ifdef APDAPTIVE_NKRO_ENABLE
     kb_report_changed &= ~KB_RPT_STD;
-#    endif
+#endif
 #endif
 }
 
