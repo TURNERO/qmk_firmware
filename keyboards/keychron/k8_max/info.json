@@ -9,13 +9,13 @@
         "vid": "0x3434"
     },
     "features": {
-        "bootmagic": false,
-        "extrakey": false,
-        "mousekey": false,
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
         "dip_switch": true,
-        "nkro": false,
-        "raw": false,
-        "sendstring": false
+        "nkro": true,
+        "raw": true,
+        "sendstring": true
     },
     "matrix_pins": {
         "cols": ["C7", "C8", "A14", "A15", "C10", "C11", "C13", "C14", "C15", "C0", "C1", "C2", "C3", "A0", "A1", "A2", "A3"],
